@@ -1,0 +1,400 @@
+
+   
+
+    /*圖片RWD*/
+
+    @media only screen and (max-width: 1000px){
+    .ship,.slogan,.stickcloud {
+    display: none;
+    }
+    }
+
+    @media only screen and (max-width: 552px){
+    .cloudleft , .cloudright, .ship ,.chi,.sugarfactory,.train,.way ,.person ,.banyan,.slogan,.stickcloud{
+    display: none;
+    }
+    }
+
+ 
+
+    body{
+    font-family: 'Noto Serif TC', serif;
+
+    }
+
+    .navbar {
+  
+    background-repeat: no-repeat;
+    background-position:center top;
+    margin: 0;
+    padding:0;
+    border:0;
+    background-size: cover;
+    z-index: 99;    
+    }
+
+    .nav-item:hover{
+    border: 0.8px white solid;
+    }
+
+    .nav-link:hover{
+    color: white;
+    }
+
+    .navbar-brand{
+        margin: 0;
+    }
+
+
+    .navbar-nav{
+    align-items: center;
+    }
+
+    .nav-link{
+    color: white;
+    font-size: 20ㄅpx;
+    font-weight: 300;
+    }
+
+    h3{
+    color:rgb(8, 8, 8);
+    }
+
+    .accordion-body{
+    line-height: 30px;
+    letter-spacing: 2px;
+
+    }
+
+    .swiper-slide img{
+    border-radius: 5px;
+
+    }
+
+    .navbar-active{
+    animation-fill-mode:both;
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+
+
+    }
+    @keyframes fadeInDown{
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        -ms-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+    }
+    
+    }
+
+    #banner,#introduce,#activity,#video,#article,#url{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    }
+
+
+    #article{
+    background-color:#ffffff; 
+    }
+
+
+    #introduce{
+    background-color: white;
+    color:#014D7F;
+    content: "";
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position:  top center;
+    }
+
+    #activity,#video{ 
+    background-color: #a3c4d1;
+    background-image: url(bg.png);
+    color:#014D7F;
+    content: "";
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: top center;
+    background-size: cover;
+    }
+
+   
+
+    .footer{
+        background-image: url(bg.png);
+    background-color: #a3c4d1;
+    color:white;
+    content: "";
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: unset;
+    background-position: bottom center;
+    background-size: cover;
+    
+    
+    }
+
+    .footer > p{
+    color:#ffffff;
+    letter-spacing: 2px;
+    line-height: 32px;
+    text-align: center;
+    font-size: 16px;
+    }
+
+   
+
+    /*banner按鈕*/  
+    .btn1{
+    width: fit-content;
+    top: 0;
+    border-radius: 30px;
+    padding: 4px 20px;
+    color: #F7F3DC;
+    background-color: #a3c4d1;
+    box-shadow: 0px 6px 0px #637e88;
+    font-size: 18px;
+    
+    }
+
+    /*banner按鈕動畫*/  
+    .btn1:hover{
+    transform: scale(0.9);
+    transition: 0.8s;
+    }
+
+
+     /*banner按鈕*/  
+    .btn2{
+    width: fit-content;
+    top: 0;
+    border-radius: 30px;
+    padding: 1px 12px;
+    color: #fff;
+    background-color: #9A4C2E;
+    box-shadow: 0px 6px 0px #5e3419;
+    font-size: 14px;
+    font-weight:bold;
+    }
+
+    /*banner按鈕動畫*/  
+    .btn2:hover{
+    transform: scale(0.9);
+    transition: 0.8s;
+    }
+
+    .btn3{
+    width: fit-content;
+    top: 0;
+    border-radius: 30px;
+    padding: 1px 14px;
+    color: #fff;
+    background-color: #9A4C2E;
+    box-shadow: 0px 6px 0px #5e3419;
+    font-size: 14px;
+    font-weight:bold;
+    margin: 10px;
+    }
+
+    /*banner按鈕動畫*/  
+    .btn3:hover{
+    transform: scale(0.9);
+    transition: 0.8s;
+    }   
+
+    .bi{
+    color: white;
+    font-size: 20px;
+    }
+
+    .swiperimg{
+    max-width: 100%;
+    box-shadow: 2px 4px 5px #585858;
+    }
+
+    .swiperimg:hover{
+    transform: scale(0.95);
+    transition: 1s ;
+    }
+
+    .swiperurl{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+    }
+
+    .swiper-wrapper{
+    margin-bottom: 10px;
+    }
+
+    .bi-youtube:hover{
+    color: red;
+    }
+
+    .bi-instagram:hover{
+    color:purple
+    }
+
+    .bi-spotify:hover{
+    color:purple
+    }
+
+    .bi-facebook:hover{
+    color:royalblue
+    }
+    .navbar-toggler{
+    background-color: #a3c4d1;
+    border: 1px white solid;
+    }
+
+    .card-body{
+    line-height: 30px;
+    letter-spacing: 2px;
+    }
+
+    .card{
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #dddddd;
+    }
+
+    .more{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0 15px;
+    color:white ;
+    }
+
+    a{
+    text-decoration: none;
+    }
+
+    h3{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    padding: 20px 0; 
+    font-weight: 300;
+    }
+
+    p{
+    color: black;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    }
+
+    .fc-head {
+    vertical-align: middle;
+    background: #B69664;
+    border: none;
+    color: #ffff;
+    margin-bottom: .2em;
+    margin-top: .2em;
+    
+    }
+    .fc button {
+    background: #F7F3DC;
+    }
+
+   
+    #calendar {
+    max-width: 900px;
+    margin: 40px auto;
+
+    }
+  
+    
+   .modal-content{
+       background-color:#F7F3DC;  
+
+   }
+
+   .btn-primary {
+    border-color: #F7F3DC  !important;
+    background-color: #9A4C2E;
+    color:white;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: unset;
+    flex-direction: unset;
+    justify-content: unset;
+    align-content: unset;
+    align-items: center;
+    }
+
+    .btn-primary:hover{
+    background-color: #B29362 !important;
+    color:#F7F3DC  !important;
+    }
+
+    .fc-content{
+    white-space: break-spaces;
+    }
+
+    .activitybar{
+    padding-top: 20px;
+    float: right;
+    position: fixed;
+    right: 0;
+    top:20%;
+    z-index: 999;
+    writing-mode: vertical-lr ;
+    }
+
+    .fc-day-grid-event .fc-content {
+    white-space: break-spaces  !important;
+    }
+
+    .fc-unthemed td.fc-today {
+    background-color: #e9d3af !important;
+    }
+
+    .cardineer {
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    }
+
+    .pictureimg{
+        transform:scale(1,1);
+        transition: all 1s ;ease-out;
+    }
+
+    .pictureimg:hover{
+        transform:scale(1.2,1.2);
+    }
+
+    .card-text{
+        text-align: justify;
+    }
+
+   
+
+  
+
+
+
+
+
+   
+
+
+    
+
+    
+
+  
+
+       
+            
