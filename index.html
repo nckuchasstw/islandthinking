@@ -36,32 +36,22 @@
 </head>
 <body>
 
-<style>
-     
-    video {
-        width: 100%;
-    min-width: 100%;
-    min-height: 100%;
-    }
-</style>
  
 <div id="#top"></div>
+
   <nav class="navbar navbar-expand-lg  sticky-top "  style="margin-top: -81px;">
       <div class="container-fluid">
-          <a class="navbar-brand px-4 d-lg-none" href="index.html">
-              <img src="mainlogo.svg" alt="Logo" width="auto" height="30" class="logo1 d-inline-block align-text-top ">
-            </a>
-        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand px-4 d-lg-none" href="index.html">
+            <img src="mainlogo.svg" alt="Logo" width="auto" height="50" class="logo1 d-inline-block align-text-top " >
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
-         -->
-    
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02 ">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto " >
             <a class="navbar-brand px-5 d-none d-lg-block " href="index.html">
                 <img src="mainlogo.svg" alt="Logo" width="auto" height="70" class="mainlogo d-inline-block align-text-top ">
-              </a>
-           
+            </a>
             <li class="nav-item px-3" >
               <a class="nav-link " aria-current="page" href="#video">計畫簡介</a>
             </li>
@@ -69,22 +59,23 @@
               <a class="nav-link" href="#article">最新消息</a>
             </li>
             <li class="nav-item px-3">
-              <a class="nav-link " href="#activity">學術活動</a>
+              <a class="nav-link " href="activity.html">學術活動</a>
             </li>
             <li class="nav-item px-3" >
               <a class="nav-link " aria-current="page" href="#introduce">團隊成員</a>
             </li>
-           
             <li class="nav-item px-3">
               <a class="nav-link" href="#footer">聯絡我們</a>
             </li>
             <li class="px-3 " >
                 <a href="https://www.youtube.com/@user-fq9es9zw3n">
-                  <i class="bi bi-youtube  h2""></i></a>
-              </li>
-              <li class="px-3">
+                  <i class="bi bi-youtube  h2""></i>
+                </a>
+            </li>
+            <li class="px-3">
                 <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
-                  <i class="bi bi-facebook h2 "></i></i></a>
+                  <i class="bi bi-facebook h2 "></i>
+                </a>
             </li>
           </ul>
         </div>
@@ -119,8 +110,8 @@
         <h3 style="color:#a3c4d1;">最新消息</h3>
         <div class="container" data-aos="fade-up"
         data-aos-duration="2000"  >
-          <div class="row row-cols-1 row-cols-md-4 g-4">
-            <div class="col" v-for="i in filteredList.slice(0, 4)">
+          <div class="row row-cols-2 row-cols-md-4 g-4">
+            <div class="col" v-for="i in  postList.slice(0, 4)">
               <div class="card h-100 " >
                 <a :href="i.url" target="_blank">
                   <div class="cardineer">
@@ -146,7 +137,7 @@
               <div style="position:relative;padding-top:56.25%;padding-left:10%;" ><iframe width="560" height="315" src="https://www.youtube.com/embed/IeFnm-obnCU?si=5eMHgvXuKuJTpykF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;border-radius: 10px;"></iframe></div>
             </div>
             <div class="col" style="text-align: justify;">
-              <p style="color:#2f434b;line-height: 32px;letter-spacing: 2px;align-items: center;font-size: 18px;"><strong style="font-size: 24px;">「島鏈共聲：臺灣與鄰國敘事…」</strong><br/> 
+              <p style="color:#2f434b;line-height: 32px;letter-spacing: 2px;align-items: center;font-size: 18px;"><strong style="font-size: 22px;">「島鏈共聲：臺灣與鄰國敘事…」</strong><br/> 
                 <br/> 
                   臺灣在不同的歷史發展階段，因在地與世界於必然和偶然之間的碰觸，所產生的衝撞和交流，對於不同政權的交替、多元族群的衝突、遷徙與融合的跌宕，衍生出盤根錯節而多層重疊的族群關係、多元文化的色彩與國家認同上諸多紛擾且歧異的內在發展面向。 第一年由國立成功大學人文社會科學中心主辦的島鏈人文策略聯盟計畫，致力發展「臺灣學」，來關注臺灣多元發展，從歷史的縱橫來對於島嶼建立更深遠的連結。「島鏈」是具多重積極的學術作用與意義以「島鏈・思想」為主題，「關懷在地人文」為切入點，藉由四校跨域的攜手合作，激盪出多元、跨域的視角，提升學術價值：
                   <strong  style="text-decoration:underline;">一、串聯校內各科系間的合作契機。
@@ -164,13 +155,14 @@
         <h3 style="color:#a3c4d1;">團隊成員</h3>
         <div class="container" data-aos="fade-up"
         data-aos-duration="2000"  >
-          <div class="row row-cols-1 row-cols-md-4 g-4">
+          <div class="row row-cols-2 row-cols-md-4 g-4">
             <div class="col" v-for="i in teamList">
               <div class="card h-100 " >
                 <a :href="i.url" target="_blank">
               
-                <div class="card-body" style="text-align: justify;">
+                <div class="card-body" style="text-align: left;">
                   <p style="font-size:14px"> {{ i.role }}</p>
+                  <hr style="color: black;">
                   <strong><p style="font-size: 24px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
                   <p style="font-size:14px"> {{ i.tel }}</p>
                   <p style="font-size:14px"> {{ i.email }}</p>
@@ -183,7 +175,7 @@
       </section>
 
     <section id="activity">
-      <h3>學術活動</h3>
+      <h3>學術活動<a href="activity.html"><span class="more">more</span></a></h3>
       <div class="swiper mySwiper" data-aos="fade-up"
       data-aos-duration="2000" style="padding-top: 20px;">
         <div class="swiper-wrapper">
@@ -195,12 +187,6 @@
         </div>
       </div>  
     </section>
-
-    <!-- <a href="activity.html"><span class="more">more</span></a> -->
-  
-
- 
-    
     
     <section id="url" >
       <div class="swiper mySwiper" data-aos="fade-up"
