@@ -117,7 +117,7 @@
 
     #activity,#video{ 
     background-color: #a3c4d1;
-    background-image: url(bg.png);
+    background-image: url(bgv2.png);
     color:#014D7F;
     content: "";
     width: auto;
@@ -130,7 +130,7 @@
    
 
     .footer{
-        background-image: url(bg.png);
+        background-image: url(bgv2.png);
     background-color: #a3c4d1;
     color:white;
     content: "";
