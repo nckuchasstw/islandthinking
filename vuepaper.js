@@ -16,7 +16,7 @@ const app = Vue.createApp({
         ],
       lectureList: [
 
-        {title:'王汎森 院士',url:'https://ashcc.litphil.sinica.edu.tw/teacher_50.php',img:'sp-01.jpg',describe:"王汎森院士臺大歷史研究所碩士班畢業後，即進入中央研究院史語所擔任助理研究員，後赴美國普林斯頓大學攻讀博士學位。二〇〇四年當選中研院院士，二〇〇五年獲選英國皇家歷史學會會士，學術成就備受學界肯定。",classification:"「島鏈Ｘ歷史」"},
+        {title:'王汎森 院士',url:'https://ashcc.litphil.sinica.edu.tw/teacher_50.php',img:'sp-01.jpg',describe:"王汎森，現任中央研究院歷史語言研究所特聘研究員，台灣大學歷史學系學士、碩士，美國普林斯頓大學博士。歷史學家，二○○四年當選中研院院士，二○○五年獲選英國皇家歷史學會會士。曾任中央研究院代理院長、副院長、中央研究院歷史語言研究所所長。著有《章太炎的思想》、《古史辨運動的興起》、Fu Ssu-nien: A Life in Chinese History and Politics（《傅斯年：中國近代歷史與政治中的個體生命》）、《中國近代思想與學術的系譜》等學術專書。",classification:"「島鏈Ｘ歷史」"},
       
         {title:'史書美 講座教授',url:'https://pr.ntnu.edu.tw/information/index.php?parent_id=719',img:'sp-03.jpg',describe:"史書美，現任美國加州大學洛杉磯分校Irving & Jean Stone人文講座教授、比較文學系、亞洲語言文化系、亞美研究系合聘教授，國立臺灣師範大學臺文系榮譽講座教授、玉山學者。曾任香港大學中文學院陳漢賢伉儷講座教授，美國加大首任愛德華薩伊德（Edward W. Said）講座教授，美國比較文學學會會長等。華文著作包括《視覺與認同：華語語系呈現，表述》、《反離散：華語語系研究論》，合編《知識臺灣：臺灣理論的可能性》和《台灣理論關鍵詞》。",classification:"「島鏈Ｘ文學」"},
   
