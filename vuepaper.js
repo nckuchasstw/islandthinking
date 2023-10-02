@@ -56,6 +56,8 @@ const app = Vue.createApp({
       ],
       
       activityList: [
+
+      {title:'「府看．府城」',url:'https://tainan-400.com/',author:'--',img:'https://tainan-400.com/mainposter.jpg',data:"2023.9~12",register:'開放報名中'},
       
       {title:'歷史Ｘ文學Ｘ生態讀書會',url:'activity02.html',author:'--',img:'bookclub-06.jpg',data:"2023.9.16",register:'活動已結束'},
       {title:'「從社會層面考察思想史的意義」大師講座',url:'activity01.html',author:'王汎森',img:'lecture.jpg',data:"2023.10.11",register:'開放報名中'},
