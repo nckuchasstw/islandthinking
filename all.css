@@ -96,7 +96,7 @@
     min-height: 100%;
     }
 
-    #banner,#introduce,#activity,#video,#article,#url{
+    #banner,#introduce,#activity,#video,#article,#url,#lecture,#bookclub{
     padding-top: 60px;
     padding-bottom: 100px;
     }
@@ -107,7 +107,7 @@
     }
 
 
-    #introduce{
+    #introduce,#lecture{
     background-color: white;
     color:#014D7F;
     content: "";
@@ -117,7 +117,7 @@
     background-position:  top center;
     }
 
-    #activity,#video{ 
+    #activity,#video,#bookclub{ 
     background-color: #a3c4d1;
     background-image: url(bg.jpg);
     color:#014D7F;

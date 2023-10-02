@@ -4,6 +4,26 @@ const app = Vue.createApp({
       text:"這是測試vue",
       isLoading:false,
       search: '',
+      bookList: [
+
+        {title:'成大歷史學系 李啟彰副教授',img:'bg.jpg',describe:"參與教師｜成大歷史學系 鄭永常兼任教授、成大歷史學系 簡宏逸助理教授、成大文學院多元文化研究中心 李貴民博士後研究員、中興歷史學系 游博清副教授、中興歷史學系 沈玉慧助理教授、中興國際政治研究所人文社會科學前瞻研究中心主任 蔡東杰特聘教授、中山西灣學院博雅教育中心主任 江政寬副教授、中山政治學研究所 陳至潔專任副教授",classification:"「島鏈Ｘ歷史」"},
+      
+        {title:'成大歷史學系 陳文松教授',img:'bg.jpg',describe:"參與教師｜成大台文系 廖淑芳教授、成大中文系 蔡玫姿教授、中山中文系 莫加南主任、中正謝志謙 助理教授、中興台灣文學與跨國化研究所 陳國偉副教授",classification:"「島鏈Ｘ文學」"},
+  
+        {title:'成功大學地球科系 樂鍇．祿璞崚岸副教授',img:'bg.jpg',describe:"參與教師｜成大法律系/原資中心主任王毓正副教授、成大考古所 鍾國風副教授、成大建築系 鄭泰昇教授、成功大學建築系 張珩特聘教授、成大中文系 秦嘉嫄副教授、中正哲學系 陳瑞麟教授、中正教育所 浦忠勇助理研究員、中山南島中心與原資 巴清雄助理教授",classification:"「島鏈Ｘ生態」"},
+  
+       
+        ],
+      lectureList: [
+
+        {title:'王汎森 院士',url:'https://ashcc.litphil.sinica.edu.tw/teacher_50.php',img:'sp-01.jpg',describe:"王汎森院士臺大歷史研究所碩士班畢業後，即進入中央研究院史語所擔任助理研究員，後赴美國普林斯頓大學攻讀博士學位。二〇〇四年當選中研院院士，二〇〇五年獲選英國皇家歷史學會會士，學術成就備受學界肯定。",classification:"「島鏈Ｘ歷史」講師"},
+      
+        {title:'史書美 特聘教授',url:'https://pr.ntnu.edu.tw/information/index.php?parent_id=719',img:'sp-03.jpg',describe:"史書美，韓國出生的華人，在美國和台灣任職教授，主要研究華語語系研究、中國現代文學、比較文學方法論、後殖民論述、跨國主義、批判種族理論、世界文學以及少數族裔論述等等。她是華語語系研究理論的奠基者及推廣者之一，而其研究中主張反離散，並提出大陸殖民主義、定居殖民主義等概念得到許多迴響，同時也被有些學者批評。",classification:"「島鏈Ｘ文學」講師"},
+  
+        {title:'陳玉峯 教授',url:'https://twl.ncku.edu.tw/p/405-1143-165292,c24427.php?Lang=zh-tw',img:'sp-04.jpg',describe:"陳玉峯，台灣雲林縣北港鎮人。1980年畢業於台灣大學植物系，台灣大學碩士，東海大學理學博士，先後任教於台大、逢甲、東海、靜宜、玄奘，曾任成功大學台灣文學系教授兼系所主任。台灣生態學者，台灣環境、文化運動先鋒。",classification:"「島鏈Ｘ生態」講師"},
+  
+       
+        ],
       postList: [
 
       {title:'10/11大師系列講座開放報名',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=13840',img:'https://chass.ncku.edu.tw/var/file/11/1011/randimg/mobileadv_3538_7519992_27974.jpg',data:"2023.09.27"},
