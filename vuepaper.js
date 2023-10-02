@@ -20,7 +20,7 @@ const app = Vue.createApp({
 
       {role:'計畫主持人',title:'蔡群立',url:'https://www.econ.ncku.edu.tw/Upload/NewsFiles/NewsPlusFiles/9/202301161525_52773.png',tel:"TEL：06-2757575#56051",email:'tchunli@ncku.edu.tw'},
     
-      {role:'共同主持人',title:'徐珊惠',url:'https://pehl.ncku.edu.tw/p/412-1136-21994.php?Lang=zh-tw',tel:"TEL：06-2757575#56055",email:'tiffhsu@gs.ncku.edu.tw'},
+      {role:'共同主持人',title:'徐珊惠',url:'https://pehl.ncku.edu.tw/p/412-1136-21994.php?Lang=zh-tw',tel:"TEL：06-2757575#81811",email:'tiffhsu@gs.ncku.edu.tw'},
 
       {role:'共同主持人',title:'李啟彰',url:'https://his.ncku.edu.tw/p/412-1190-25944.php?Lang=zh-tw',tel:"TEL：06-2757575#52324",email:'	leechichang1911@yahoo.com.tw'},
 
