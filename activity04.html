@@ -35,33 +35,51 @@
     
 </head>
 <body>
-<style>
-  .search-wrapper {
-    text-align: center;
-  }
-  input {
-    outline-style: none;
-    border: 1px solid #ccc;
-    background-color: rgb(235, 235, 235);
-    padding: 13px 14px;
-    width: 300px;
-    font-size: 14px;
-    font-weight: 700;
-    font-family: "Microsoft soft";
-    border-radius: 30px;
-    margin: 10px;
-  }
-
-  input:hover{
-    background-color: rgb(253, 253, 198);
-  }
-
+  <style> 
+    input{
+      outline-style: none ;
+      border: 1px solid #ccc; 
+      background-color: rgb(235, 235, 235);
+      padding: 13px 14px;
+      width: 300px;
+      font-size: 14px;
+      font-weight: 700;
+      font-family: "Microsoft soft";
+      border-radius: 30px;
+      margin: 10px;
+      
+    }
+  
+    input:hover{
+        border: 1px solid rgb(0, 0, 0); 
+        background-color: rgb(245, 255, 104);
+        
+    }
+  
+    
+    .search-wrapper{
+      text-align: center;
+    }
+  
+  
+    .pictureimg{
+        width: 200px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px 10px 0px 0px;
+        
+    }
+  
+    .pictureimg:hover{
+      opacity: 0.8;
+    }
+    
+  
+  
+  </style>
   
 
-
-</style>
- 
-<div id="#top"></div>
+  <div id="#top"></div>
 
   <nav class="navbar navbar-expand-lg  sticky-top " style=" background-color: #a3c4d1;" >
       <div class="container-fluid">
@@ -99,85 +117,96 @@
         </div>
       </div>
   </nav>
-
-
-<section class="activitysearch py-5">
-<div id="app">
-  <h1 style="text-align: center;margin-top:0px;">活動搜尋</h1>
-     <div class="search-wrapper">
-       <input type="text" v-model="search" placeholder="請輸入關鍵字，如：大師講座、讀書會等"/>
-     </div>
-     <p style="text-align:center;font-size: 10px;">共有{{filteredList.length}}筆相關資料</p>
-  <!-- <p style="text-align: center;font-size: 8px;">主辦單位保有修改及取消活動之權利，相關異動將會通知報名者，並即時公告於網頁。</p> -->
-    <div class="container" >
-      <div class="row row-cols-1 row-cols-md-4 g-4">
-          <div class="col" v-for="i in filteredList">
-            <div class="card h-100 " >
-              <a :href="i.url" target="_blank">
-              <div class="cardineer">
-              <img :src="i.img" class="pictureimg" style="width: 100%;" >
-            </div>
-            
-              <div class="card-body">
-                <p style="font-size:14px;text-align: center;background-color: #a3c4d1;color: white;border-radius: 10px;">{{i.register}}</p>
-              </a>
-                <strong><p style="font-size: 16px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
-                <p style="font-size:14px">講者：{{ i.author }}</p>
-                <p style="font-size:14px">活動日期：{{i.data}}</p>
-            </div>
+ 
+  <section style="padding: 40px 0 ;">
+    <div class="container text-center ">
+        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="activity.html" style="color:#163D50">相關活動</a></li>
+              <li class="breadcrumb-item active" aria-current="page">生態主題讀書會</li>
+            </ol>
+          </nav>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col ">
+            <img src="bookclub-09.jpg" alt="" style="width: 100%;" >
+          
+          </div>
+          <div class="col" >
+            <p style="line-height: 35px;letter-spacing: 2px;text-align: justify;">
+                <strong>【活動主旨】</strong><br/>
+                臺綜大「『島鏈』•『思想』策略聯盟計畫讀書會」即將在成功大學開啟，旨在通過閱讀、討論和思考，提出對當代主題發展趨勢的想法，並開發密集課程和相關主題研究團隊，以實現知識傳承的永續發展。這樣的跨學科閱讀和交流，將為各校挹注新的思考和啟發，拓展學術視野，增強教學能力。這次讀書會我們將深入探究三大議題：<br/><br/>
+                一、「歷史」：從歷史梳理島嶼間存在的關聯與依存關係，<br/>
+                二、「文學」：表現形式闡述的島鏈生活思想，<br/>
+                三、「生態」：從生態倫理觀點論述族群與島嶼的相互和共生關係的議題， 藉此深入探討臺灣島嶼文化的多樣性和特色，共同發現島嶼文化的獨特之處，探究其淵源和演變，進一步理解和尊重不同文化的存在和價值。<br/>
+                <br/>
+                讀書會不僅探究議題，更是一個交流平台，讓跨校、跨域的參與者們可以交換意見，分享觀點和心得，開拓視野。我們期待您的加入，一起在思想碰撞中交織更多的差異與對話。期待與您在讀書會中相遇！<br/>
+                <br/>
+                <strong>【活動資訊】</strong><br/>
+                主題︱生態主題讀書會<br/>
+                時間︱112年10月13日（三）<br/>
+                地點︱待定<br/>
+                主辦單位︱國立成功大學人文社會科學中心<br/>
+                導讀人｜王毓正 副教授 <br/>
+                導讀書目 |夏曼．藍波安---《冷海情深》<br/>
+                
+                <br/>
+                <strong>【讀書會參與成員】</strong><br/>
+                主責老師 | 成功大學地球科系 樂鍇．祿璞崚岸副教授<br/>
+                助理 | Derrick 助理 yang4547@gmail.com<br/>
+                參與教師 |<br/>
+                成大法律系 /原資中心主任王毓正副教授<br/>
+                成大考古所 鍾國風副教授<br/>
+                成大建築系 鄭泰昇教授<br/>
+                成功大學建築系 張珩特聘教授<br/>
+                成大中文系 秦嘉嫄副教授<br/>
+                中正哲學系 陳瑞麟教授<br/>
+                中正教育所 浦忠勇助理研究員<br/>
+                中山南島中心與原資 巴清雄助理教授<br/>
+                
+                </p>
           </div>
         </div>
-      </div>
+
+       
     </div>
-  </div>
-</div>
-<a href="#top" >
-  <button class="btn1" style="float: right;margin-right:30px;margin-top: 10px;" data-aos="fade-up"
-  data-aos-anchor-placement="bottom-bottom"><i class="bi bi-caret-up-fill"></i></button>
-</a>
-</section>
+  </section>
 
-<section id="footer">
-  <footer class="footer  py-5 " >
-    <p class="px-3">
-      <img src="footerlogo.svg" alt="" style="width: 100px;"><br/>
-      <br/>
-      國立成功大學人文社會科學中心<br/>
-      Tel：06-2757575 ext.56055<br/>
-      Fax:06-2088264<br/>
-      Email：islandxthinking@gmail.com<br/>
-      Add：70101 臺南市東區大學路一號光復校區雲平大樓東棟北側5樓<br/>
-      </p>
-    <ul class="list-unstyled" style="display: flex;    justify-content: center;" >
-      <li class="px-3 " >
-        <a href="https://www.youtube.com/@user-fq9es9zw3n">
-          <i class="bi bi-youtube  h2""></i></a>
+
+
+  
+
+  <section id="footer">
+    <footer class="footer  py-5 " >
+      <p class="px-3">
+        <img src="footerlogo.svg" alt="" style="width: 100px;"><br/>
+        <br/>
+        國立成功大學人文社會科學中心<br/>
+        Tel：06-2757575 ext.56055<br/>
+        Fax:06-2088264<br/>
+        Email：islandxthinking@gmail.com<br/>
+        Add：70101 臺南市東區大學路一號光復校區雲平大樓東棟北側5樓<br/>
+        </p>
+      <ul class="list-unstyled" style="display: flex;    justify-content: center;" >
+        <li class="px-3 " >
+          <a href="https://www.youtube.com/@user-fq9es9zw3n">
+            <i class="bi bi-youtube  h2""></i></a>
+        </li>
+        <li class="px-3">
+          <a href="https://www.instagram.com/taiwan_study_ncku/">
+            <i class="bi bi-instagram  h2 "></i></a>
+        </li>
+        <li class="px-3">
+          <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
+            <i class="bi bi-facebook h2 "></i></i>
+        </a>
       </li>
-      <li class="px-3">
-        <a href="https://www.instagram.com/taiwan_study_ncku/">
-          <i class="bi bi-instagram  h2 "></i></a>
-      </li>
-      <li class="px-3">
-        <a href="https://www.facebook.com/profile.php?id=100071813840535&ref=embed_page">
-          <i class="bi bi-facebook h2 "></i></i>
-      </a>
     </li>
-  </li>
-  <li class="immg px-3">
-  <a href="https://lin.ee/CSXZjzvm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" width="100" border="0"></a>
-  </li>
-      </ul> 
-  </footer>
-</section>
- <!-- Messenger 洽談外掛程式 Code -->
- <div id="fb-root"></div>
-
- <!-- Your 洽談外掛程式 code -->
- <div id="fb-customer-chat" class="fb-customerchat">
- </div>
-
-
-
+    <li class="immg px-3">
+    <a href="https://lin.ee/CSXZjzvm"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/zh-Hant.png" alt="加入好友" width="100" border="0"></a>
+    </li>
+        </ul> 
+    </footer>
+  </section>
 
  
 
@@ -191,35 +220,9 @@ https://cdn.jsdelivr.net/npm/vue-loading-overlay@6.0.3/dist/index.min.js
 "></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="https://unpkg.com/vue-router@4.0.15/dist/vue-router.global.js."></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<!-- Moment.js v2.20.0 -->
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.8.1/fullcalendar.min.js"></script>
-<script src="https://unpkg.com/tooltip.js/dist/umd/tooltip.min.js"></script>
-<script src="https://static.cloudflareinsights.com/beacon.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="all.js"></script>
-<script src="vuepaper.js"></script>
-
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
- chatbox.setAttribute("page_id", "104877438580876");
- chatbox.setAttribute("attribution", "biz_inbox");
-
- window.fbAsyncInit = function() {
-   FB.init({
-     xfbml            : true,
-     version          : 'v17.0'
-   });
- };
-
- (function(d, s, id) {
-   var js, fjs = d.getElementsByTagName(s)[0];
-   if (d.getElementById(id)) return;
-   js = d.createElement(s); js.id = id;
-   js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
-   fjs.parentNode.insertBefore(js, fjs);
- }(document, 'script', 'facebook-jssdk'));
-</script>
+<script src="gsap.js"></script>
 
 
   
