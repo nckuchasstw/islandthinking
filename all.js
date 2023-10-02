@@ -4,6 +4,7 @@ gsap.to(".navbar",{
     scrollTrigger:{
         markers:false,
         start:"top -4%",
+        end:"top -1000%",
         trigger:".carousel",
         toggleClass:{ targets:".navbar",className:"navbar-active" },
     }
