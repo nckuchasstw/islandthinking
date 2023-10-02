@@ -4,11 +4,11 @@ gsap.to(".navbar",{
     scrollTrigger:{
         markers:false,
         start:"top -4%",
-        
         trigger:".carousel",
         toggleClass:{ targets:".navbar",className:"navbar-active" },
     }
-})
+});
+
 
   var swiper = new Swiper(".mySwiper", {
     slidesPerView: 2,
