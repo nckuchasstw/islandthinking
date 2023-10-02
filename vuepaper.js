@@ -16,11 +16,11 @@ const app = Vue.createApp({
         ],
       lectureList: [
 
-        {title:'王汎森 院士',url:'https://ashcc.litphil.sinica.edu.tw/teacher_50.php',img:'sp-01.jpg',describe:"王汎森院士臺大歷史研究所碩士班畢業後，即進入中央研究院史語所擔任助理研究員，後赴美國普林斯頓大學攻讀博士學位。二〇〇四年當選中研院院士，二〇〇五年獲選英國皇家歷史學會會士，學術成就備受學界肯定。",classification:"「島鏈Ｘ歷史」講師"},
+        {title:'王汎森 院士',url:'https://ashcc.litphil.sinica.edu.tw/teacher_50.php',img:'sp-01.jpg',describe:"王汎森院士臺大歷史研究所碩士班畢業後，即進入中央研究院史語所擔任助理研究員，後赴美國普林斯頓大學攻讀博士學位。二〇〇四年當選中研院院士，二〇〇五年獲選英國皇家歷史學會會士，學術成就備受學界肯定。",classification:"「島鏈Ｘ歷史」"},
       
-        {title:'史書美 特聘教授',url:'https://pr.ntnu.edu.tw/information/index.php?parent_id=719',img:'sp-03.jpg',describe:"史書美，韓國出生的華人，在美國和台灣任職教授，主要研究華語語系研究、中國現代文學、比較文學方法論、後殖民論述、跨國主義、批判種族理論、世界文學以及少數族裔論述等等。她是華語語系研究理論的奠基者及推廣者之一，而其研究中主張反離散，並提出大陸殖民主義、定居殖民主義等概念得到許多迴響，同時也被有些學者批評。",classification:"「島鏈Ｘ文學」講師"},
+        {title:'史書美 講座教授',url:'https://pr.ntnu.edu.tw/information/index.php?parent_id=719',img:'sp-03.jpg',describe:"史書美，韓國出生的華人，在美國和台灣任職教授，主要研究華語語系研究、中國現代文學、比較文學方法論、後殖民論述、跨國主義、批判種族理論、世界文學以及少數族裔論述等等。她是華語語系研究理論的奠基者及推廣者之一，而其研究中主張反離散，並提出大陸殖民主義、定居殖民主義等概念得到許多迴響，同時也被有些學者批評。",classification:"「島鏈Ｘ文學」"},
   
-        {title:'陳玉峯 教授',url:'https://twl.ncku.edu.tw/p/405-1143-165292,c24427.php?Lang=zh-tw',img:'sp-04.jpg',describe:"陳玉峯，台灣雲林縣北港鎮人。1980年畢業於台灣大學植物系，台灣大學碩士，東海大學理學博士，先後任教於台大、逢甲、東海、靜宜、玄奘，曾任成功大學台灣文學系教授兼系所主任。台灣生態學者，台灣環境、文化運動先鋒。",classification:"「島鏈Ｘ生態」講師"},
+        {title:'陳玉峯 教授',url:'https://twl.ncku.edu.tw/p/405-1143-165292,c24427.php?Lang=zh-tw',img:'sp-04.jpg',describe:"陳玉峯，台灣雲林縣北港鎮人。1980年畢業於台灣大學植物系，台灣大學碩士，東海大學理學博士，先後任教於台大、逢甲、東海、靜宜、玄奘，曾任成功大學台灣文學系教授兼系所主任。台灣生態學者，台灣環境、文化運動先鋒。",classification:"「島鏈Ｘ生態」"},
   
        
         ],
