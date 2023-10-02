@@ -61,12 +61,12 @@ const app = Vue.createApp({
       {title:'「從社會層面考察思想史的意義」大師講座',url:'activity01.html',author:'王汎森',img:'lecture.jpg',data:"2023.10.11",register:'開放報名中'},
       {title:'文學主題讀書會',url:'activity03.html',author:'陳文松、莫加南',img:'bookclub-08.jpg',data:"2023.10.11",register:'尚未開放報名'},
       {title:'生態主題讀書會',url:'activity04.html',author:'王毓正',img:'bookclub-09.jpg',data:"2023.10.13",register:'尚未開放報名'},
-      {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'bookclub-07.jpg',data:"2023.11.11",register:'尚未開放報名'},
-      {title:'大師講座',url:'activity.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
-      {title:'大師講座',url:'activity.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
-      {title:'大師講座',url:'activity.html',author:'王汎森',img:'lecture-02.jpg',data:"2024.2.22",register:'尚未開放報名'},
-      {title:'大師講座',url:'activity.html',author:'陳玉峰',img:'lecture-05.jpg',data:"2023.3.5",register:'尚未開放報名'},
-      {title:'大師講座',url:'activity.html',author:'陳玉峰',img:'lecture-06.jpg',data:"2023.3.22",register:'尚未開放報名'},
+      {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'1104.jpg',data:"2023.11.4",register:'尚未開放報名'},
+      {title:'「新冷戰時期的華語語系研究與關係比較學」大師講座',url:'activity06.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
+      {title:'「Master：關係比較方法論的探討」大師講座',url:'activity07.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
+      {title:'大師講座',url:'activity08.html',author:'王汎森',img:'lecture-02.jpg',data:"2024.2.22",register:'尚未開放報名'},
+      {title:'「臺灣自然史的俗演繹——依整體論談臺灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峰',img:'lecture-05.jpg',data:"2024.3.5",register:'尚未開放報名'},
+      {title:'「臺灣人文生態的奧義——隱性蟬的無門關」大師講座',url:'activity.html',author:'陳玉峰',img:'lecture-06.jpg',data:"2024.3.22",register:'尚未開放報名'},
       ],
 
       urlList:[
