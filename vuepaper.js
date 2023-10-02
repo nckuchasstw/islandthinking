@@ -38,7 +38,7 @@ const app = Vue.createApp({
       activityList: [
       
       {title:'歷史Ｘ文學Ｘ生態讀書會',url:'activity02.html',author:'--',img:'bookclub-06.jpg',data:"2023.9.16",register:'活動已結束'},
-      {title:'「從社會層面―考察思想史的意義」大師講座',url:'activity01.html',author:'王汎森',img:'lecture-01.jpg',data:"2023.10.11",register:'開放報名中'},
+      {title:'「從社會層面考察思想史的意義」大師講座',url:'activity01.html',author:'王汎森',img:'lecture.jpg',data:"2023.10.11",register:'開放報名中'},
       {title:'文學主題讀書會',url:'activity03.html',author:'陳文松、莫加南',img:'bookclub-08.jpg',data:"2023.10.11",register:'尚未開放報名'},
       {title:'生態主題讀書會',url:'activity04.html',author:'王毓正',img:'bookclub-09.jpg',data:"2023.10.13",register:'尚未開放報名'},
       {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'bookclub-07.jpg',data:"2023.11.11",register:'尚未開放報名'},
