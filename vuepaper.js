@@ -26,6 +26,8 @@ const app = Vue.createApp({
         ],
       postList: [
 
+      {title:'臺綜大 4 校攜手啟動島鏈人文計畫　首場大師講座王汎森院士談思想史與社會的互動關係',url:'https://web.ncku.edu.tw/p/406-1000-259300,r3529.php?Lang=zh-tw',img:'https://scontent.ftpe2-1.fna.fbcdn.net/v/t39.30808-6/387799496_338161031921022_7187868995722860851_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=99ZOMRYKv_8AX_PzjTF&_nc_ht=scontent.ftpe2-1.fna&oh=00_AfALTTaPOcMW3jkk_Se9BI2-zrNnZ8QLuG98YoK7Gcxhcw&oe=652C20B4',data:"2023.10.11"},
+    
       {title:'10/11大師系列講座開放報名',url:'https://activity.ncku.edu.tw/index.php?c=apply&no=13840',img:'https://chass.ncku.edu.tw/var/file/11/1011/randimg/mobileadv_3538_7519992_27974.jpg',data:"2023.09.27"},
     
       {title:'10/11(三)島鏈 x 歷史大師系列講座 ｜ 主講人：王汎森 院士',url:'	https://activity.ncku.edu.tw/index.php?c=apply&no=13840',img:'https://chass.ncku.edu.tw/var/file/11/1011/randimg/mobileadv_3538_7519992_27974.jpg',data:"2023.09.25"},
