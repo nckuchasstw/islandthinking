@@ -6,11 +6,11 @@ const app = Vue.createApp({
       search: '',
       bookList: [
 
-        {title:'成大歷史學系 李啟彰副教授',img:'bg.jpg',describe:"參與教師｜成大歷史學系 鄭永常兼任教授、成大歷史學系 簡宏逸助理教授、成大文學院多元文化研究中心 李貴民博士後研究員、中興歷史學系 游博清副教授、中興歷史學系 沈玉慧助理教授、中興國際政治研究所人文社會科學前瞻研究中心主任 蔡東杰特聘教授、中山西灣學院博雅教育中心主任 江政寬副教授、中山政治學研究所 陳至潔專任副教授",classification:"「島鏈Ｘ歷史」"},
+        {title:'成大歷史學系 李啟彰副教授',img:'bg.jpg',describe:"參與教師｜成大歷史學系 鄭永常教授、成大歷史學系 簡宏逸助理教授、成大歷史學系 李貴民博士後研究員、成大歷史學系 廖柏皓助理、中興歷史學系 游博清副教授、中興歷史學系 沈玉慧助理教授、中興國際政治研究所人文社會科學前瞻研究中心主任 蔡東杰特聘教授、中山西灣學院博雅教育中心主任 江政寬副教授",classification:"「島鏈Ｘ歷史」",time1:"2023.09.16 ",book1:"《海洋地緣政治入門：世界史視野下的海權爭霸》",time2:"2023.11.11 ",book2:"《從海洋看歷史》"},
       
-        {title:'成大歷史學系 陳文松教授',img:'bg.jpg',describe:"參與教師｜成大台文系 廖淑芳教授、成大中文系 蔡玫姿教授、中山中文系 莫加南主任、中正謝志謙 助理教授、中興台灣文學與跨國化研究所 陳國偉副教授",classification:"「島鏈Ｘ文學」"},
+        {title:'成大歷史學系 陳文松教授',img:'bg.jpg',describe:"參與教師｜成大台文系 廖淑芳教授、成大中文系 蔡林縉助理教授、中山中文系/人文研究中心 莫加南主任、中正外文系 謝志謙 助理教授、中興台灣文學與跨國化研究所 陳國偉副教授",classification:"「島鏈Ｘ文學」",time1:"2023.09.16 ",book1:"《台灣文學的世界之路》導論、第一章、第二章",time2:"2023.10.27 ",book2:"《台灣文學的世界之路》第三章"},
   
-        {title:'成功大學地球科系 樂鍇．祿璞崚岸副教授',img:'bg.jpg',describe:"參與教師｜成大法律系/原資中心主任王毓正副教授、成大考古所 鍾國風副教授、成大建築系 鄭泰昇教授、成功大學建築系 張珩特聘教授、成大中文系 秦嘉嫄副教授、中正哲學系 陳瑞麟教授、中正教育所 浦忠勇助理研究員、中山南島中心與原資 巴清雄助理教授",classification:"「島鏈Ｘ生態」"},
+        {title:'成功大學地球科系 樂鍇．祿璞崚岸副教授',img:'bg.jpg',describe:"參與教師｜成大體育室/健康與休閒研究所 徐珊惠教授、成大法律系/原資中心主任 王毓正副教授、成大考古所 鍾國風副教授、成大建築系 鄭泰昇教授、成大建築系 張珩特聘教授、成大中文系 秦嘉嫄副教授、中正哲學系 陳瑞麟教授、中正教育所 浦忠勇助理研究員、中山南島中心與原資中心 巴清雄助理教授",classification:"「島鏈Ｘ生態」",time1:"2023.09.16 ",book1:"《原蘊山海間：臺灣住民族狩獵暨漁撈文化研究》",time2:"2023.10.13 ",book2:"《冷海情深》"},
   
        
         ],
@@ -25,6 +25,8 @@ const app = Vue.createApp({
        
         ],
       postList: [
+
+      {title:'原訂12/5「新冷戰時期的華語語系研究與關係比較學」大師講座、12/6「Master：關係比較方法論的探討」大師講座，因臨時狀況之變動，活動暫時取消，若有進一步的講座消息，將另行公佈。',url:'',img:'bg.jpg',data:"2023.11.23"},
 
       {title:'臺綜大 4 校攜手啟動島鏈人文計畫　首場大師講座王汎森院士談思想史與社會的互動關係',url:'https://web.ncku.edu.tw/p/406-1000-259300,r3529.php?Lang=zh-tw',img:'10111.jpeg',data:"2023.10.11"},
     
@@ -57,18 +59,18 @@ const app = Vue.createApp({
       
       activityList: [
 
-      {title:'「府看．府城」',url:'https://tainan-400.com/',author:'--',img:'https://tainan-400.com/mainposter.jpg',data:"2023.9~12",register:'開放報名中'},
+     
       
       {title:'歷史Ｘ文學Ｘ生態讀書會',url:'activity02.html',author:'--',img:'bookclub-06.jpg',data:"2023.9.16",register:'活動已結束'},
-      {title:'「從社會層面考察思想史的意義」大師講座',url:'activity01.html',author:'王汎森',img:'lecture.jpg',data:"2023.10.11",register:'開放報名中'},
-      {title:'文學主題讀書會',url:'activity03.html',author:'陳文松、莫加南',img:'bookclub-08.jpg',data:"2023.10.11",register:'尚未開放報名'},
-      {title:'生態主題讀書會',url:'activity04.html',author:'王毓正',img:'bookclub-09.jpg',data:"2023.10.13",register:'尚未開放報名'},
-      {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'1104.jpg',data:"2023.11.4",register:'尚未開放報名'},
-      {title:'「新冷戰時期的華語語系研究與關係比較學」大師講座',url:'activity06.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
-      {title:'「Master：關係比較方法論的探討」大師講座',url:'activity07.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
-      {title:'大師講座',url:'activity08.html',author:'王汎森',img:'lecture-02.jpg',data:"2024.2.22",register:'尚未開放報名'},
-      {title:'「臺灣自然史的俗演繹——依整體論談臺灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峰',img:'lecture-05.jpg',data:"2024.3.5",register:'尚未開放報名'},
-      {title:'「臺灣人文生態的奧義——隱性蟬的無門關」大師講座',url:'activity.html',author:'陳玉峰',img:'lecture-06.jpg',data:"2024.3.22",register:'尚未開放報名'},
+      {title:'「從社會層面考察思想史的意義」大師講座',url:'activity01.html',author:'王汎森',img:'lecture.jpg',data:"2023.10.11",register:'活動已結束'},
+      {title:'文學主題讀書會',url:'activity03.html',author:'陳文松、莫加南',img:'bookclub-08.jpg',data:"2023.10.11",register:'活動已結束'},
+      {title:'生態主題讀書會',url:'activity04.html',author:'王毓正',img:'bookclub-09.jpg',data:"2023.10.13",register:'活動已結束'},
+      {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'1104.jpg',data:"2023.11.4",register:'活動已結束'},
+      // {title:'「新冷戰時期的華語語系研究與關係比較學」大師講座',url:'activity06.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
+      // {title:'「Master：關係比較方法論的探討」大師講座',url:'activity07.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
+      // {title:'大師講座',url:'activity08.html',author:'王汎森',img:'lecture-02.jpg',data:"2024.2.22",register:'尚未開放報名'},
+      // {title:'「臺灣自然史的俗演繹——依整體論談臺灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峰',img:'lecture-05.jpg',data:"2024.3.5",register:'尚未開放報名'},
+      // {title:'「臺灣人文生態的奧義——隱性蟬的無門關」大師講座',url:'activity.html',author:'陳玉峰',img:'lecture-06.jpg',data:"2024.3.22",register:'尚未開放報名'},
       ],
 
       urlList:[

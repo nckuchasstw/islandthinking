@@ -36,6 +36,8 @@
 </head>
 <body>
 
+  
+
  
 <div id="#top"></div>
 
@@ -196,18 +198,40 @@
         讀書會不僅探究議題，更是一個交流平台，讓跨校、跨域的參與者們可以交換意見，分享觀點和心得，開拓視野。我們期待您的加入，一起在思想碰撞中交織更多的差異與對話。期待與您在讀書會中相遇！</p></p>
         <div class="row row-cols-2 row-cols-md-3 g-3">
           <div class="col" v-for="i in bookList">
-           
-            <div class="card h-100 " >
-             
-                <div class="cardineer">
-                  
-                  <img :src="i.img" class="pictureimg" style="width: 100%;height: auto;" >
-                </div>
-          
-              <div class="card-body" style="text-align: justify;">
+            <div class="card h-100 "  style="cursor: pointer;">
+              <div class="card-body " style="text-align: justify;">
                 <strong><p style="font-size: 20px;padding-top: 10px;color:#2F3E45;">{{ i.classification }}</p></strong>
                 <strong><p style="font-size: 20px;padding-top: 10px;color:#2F3E45;">{{ i.title }}</p></strong>
                 <p style="font-size:14px"> {{ i.describe }}</p>
+              </div>
+              <div class="back"> 
+                <table class="tabfo">
+                  <tr >
+                    <td>
+                     時間
+                    </td>
+                    <td>
+                      導讀書目
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      {{ i.time1 }}
+                    </td>
+                    <td>
+                      {{ i.book1 }}
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      {{ i.time2 }}
+                    </td>
+                    <td>
+                      {{ i.book2 }}
+                    </td>
+                  </tr>
+                </table>
+                
               </div>
             </div>
           </div>
