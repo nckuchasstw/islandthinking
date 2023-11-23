@@ -361,6 +361,7 @@
       box-sizing: border-box;
       transition: all 0.5s;
       backface-visibility: hidden;
+      border-radius: 10px;
       
       
     }
