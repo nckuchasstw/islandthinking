@@ -26,6 +26,8 @@ const app = Vue.createApp({
         ],
       postList: [
 
+      {title:'大師系列講座開放報名中',url:'activity.html',img:'https://chass.ncku.edu.tw/var/file/11/1011/randimg/mobileadv_4494_4858034_22731.jpg',data:"2024.2.6"},
+
       {title:'原訂12/5「新冷戰時期的華語語系研究與關係比較學」大師講座、12/6「Master：關係比較方法論的探討」大師講座，因臨時狀況之變動，活動暫時取消，若有進一步的講座消息，將另行公佈。',img:'bg.jpg',data:"2023.11.23"},
 
       {title:'臺綜大 4 校攜手啟動島鏈人文計畫　首場大師講座王汎森院士談思想史與社會的互動關係',url:'https://web.ncku.edu.tw/p/406-1000-259300,r3529.php?Lang=zh-tw',img:'10111.jpeg',data:"2023.10.11"},
