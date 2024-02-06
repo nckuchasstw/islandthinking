@@ -68,9 +68,9 @@ const app = Vue.createApp({
       {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'1104.jpg',data:"2023.11.4",register:'活動已結束'},
       // {title:'「新冷戰時期的華語語系研究與關係比較學」大師講座',url:'activity06.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
       // {title:'「Master：關係比較方法論的探討」大師講座',url:'activity07.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
-      // {title:'大師講座',url:'activity08.html',author:'王汎森',img:'lecture-02.jpg',data:"2024.2.22",register:'尚未開放報名'},
-      // {title:'「臺灣自然史的俗演繹——依整體論談臺灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峰',img:'lecture-05.jpg',data:"2024.3.5",register:'尚未開放報名'},
-      // {title:'「臺灣人文生態的奧義——隱性蟬的無門關」大師講座',url:'activity.html',author:'陳玉峰',img:'lecture-06.jpg',data:"2024.3.22",register:'尚未開放報名'},
+      {title:'「由下而上的思想史」大師講座',url:'activity08.html',author:'王汎森',img:'0223.jpg',data:"2024.2.23",register:'開放報名中'},
+      {title:'「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峯',img:'0308.jpg',data:"2024.3.8",register:'開放報名中'},
+      {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'0322.jpg',data:"2024.3.22",register:'尚未開放報名'},
       ],
 
       urlList:[
