@@ -26,7 +26,7 @@ const app = Vue.createApp({
         ],
       postList: [
 
-      {title:'大師系列講座開放報名中',url:'activity.html',img:'https://chass.ncku.edu.tw/var/file/11/1011/randimg/mobileadv_4494_4858034_22731.jpg',data:"2024.2.6"},
+      {title:'2/23「由下而上的思想史」、3/8「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」、3/22「台灣宗教哲學奧義——隱性禪的無門關」，大師系列講座開放報名中',url:'activity.html',img:'https://chass.ncku.edu.tw/var/file/11/1011/randimg/mobileadv_4494_4858034_22731.jpg',data:"2024.02.06"},
 
       {title:'原訂12/5「新冷戰時期的華語語系研究與關係比較學」大師講座、12/6「Master：關係比較方法論的探討」大師講座，因臨時狀況之變動，活動暫時取消，若有進一步的講座消息，將另行公佈。',img:'bg.jpg',data:"2023.11.23"},
 
