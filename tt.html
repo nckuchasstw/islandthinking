@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            font-size: 16px;
+        }
+
+        .panel-control {
+        position:absolute;
+        opacity:0;
+        }
+
+        
+        .tab-group label {
+        display:inline-block;
+        padding: 10px 30px;
+        border:1px solid #ccc;
+        border-bottom:none;
+        background-color: white;
+        bottom:-1px;
+        position:relative;
+        }
+        .content-group {
+       
+        padding: 20px;
+        }
+        .content{display:none;}
+        /* .content1{display:block;} */
+        /* .tab-group .active {
+        position:relative;
+        background-color: #fff;
+        } */
+        
+        #radio1:checked ~ .tab-group [for="radio1"],
+        #radio2:checked ~ .tab-group [for="radio2"],
+        #radio3:checked ~ .tab-group [for="radio3"],
+        #radio4:checked ~ .tab-group [for="radio4"],
+        #radio5:checked ~ .tab-group [for="radio5"]{
+        background-color: #f8f0e1;}
+        
+        /* #radio2:checked~ .content-group .content1{display:none}
+        #radio3:checked~ .content-group .content1{display:none} */
+        
+        #radio1:checked ~ .content-group .content1,
+        #radio2:checked ~ .content-group .content2,
+        #radio3:checked ~ .content-group .content3,
+        #radio4:checked ~ .content-group .content4,
+        #radio5:checked ~ .content-group .content5{
+        display:block}
+        
+        .table0312 {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        display: block;
+        overflow-x: auto;
+        
+        
+        }
+
+        .table0312 tr, td {
+        text-align: center;
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+        }
+
+        tr:hover {
+        background-color: rgb(240, 240, 240);
+        }
+    
+
+       
+        
+        label{
+          width: 200px;
+          text-align: center;
+        }
+        
+        tbody{
+            white-space: nowrap;
+        }
+
+        .panel-group{
+            margin-top: -70px;
+        }
+
+
+        
+        
+        
+        </style>
+        </head>
+        <body>
+        <img src="https://chass.ncku.edu.tw/var/file/11/1011/img/428620429_408696878227519_9053868355120860158_n.jpeg" data-aos="fade-right" style="width: 100%;">
+        <div class="panel-group">
+            <input type="radio" name="panel-radio" id="radio1" class="panel-control" checked>
+            <input type="radio" name="panel-radio" id="radio2" class="panel-control">
+            <input type="radio" name="panel-radio" id="radio3" class="panel-control">
+            <input type="radio" name="panel-radio" id="radio4" class="panel-control">
+           
+            <div class="tab-group">
+           
+              <label class="hot1" for="radio1">工作方緣起及目的</label>
+              <label for="radio2" class="active">工作坊資訊&報名</label>
+              <label for="radio3">工作坊議程</label>
+              <label for="radio4">主講人簡介</label>
+            
+            </div>
+
+            <div class="content-group">
+            
+            <div class="content content1">
+            <p style="text-align: justify;letter-spacing: 2px;line-height: 32px;">
+                <b style="font-size: 20px;font-weight: 800;">工作坊緣起</b><br>
+                <br>
+                世界心理衛生聯盟於2023年倡議「心理健康為普世人權」，呼籲全球對心理健康的重視，並強調每個人都需要獲得優質心理保健的基本人權，這也與聯合國2030永續發展目標3的核心精神，確保與促進各年齡層健康生活與福祉相呼應。《國立成功大學112-116年中程校務發展計畫》期許讓校園積極參與解決全球議題，勇於承擔大學責任，以達成促進城市發展及世界永續，作為成大放眼百年所承載的關鍵任務。而以舉辦幸福教育國際論壇與工作坊，體現本校強化社會責任與影響力，發展解決公共問題韌性的使命。<br>
+                <br>
+                本校沈孟儒校長以人為本，守護全校師生職員的身心健康，積極打造幸福有感的校園環境，期許以本校知識力驅動台灣對心理健康的重視，以養成社會韌性力，對所屬教育社群與社會大眾有所貢獻。同時，沈校長透過兩項教育方針，一是生命教育；一是美感教育，以對生命的認知，進而培養學生「會思考的心靈」，而幸福教育國際論壇與工作坊則相對應沈校長理念，期許從成大開始，以幸福科學和幸福教育點燈，為大家開創喜樂，讓人生心靈「活起來」。<br>
+                <br>
+                幸福教育國際論壇與工作坊邀請美國埃默里大學(Emory University)「冥想科學和慈悲倫理中心」Dr. Lobsang Tenzin Negi主任、與「社會、情緒與倫理學習」SEE Learning(Social, Emotional and Ethical Learning, SEE learning) Tsondue Samphel助理主任，將介紹Emory大學慈悲中心所發起打造心理健康和幸福感的慈悲運動。「慈悲」實務是西方向東方取經的新火種，聚焦在拓展有意義的人際關係和利他行動；慈悲運動是攜手全球一起打造幸福健康的心靈革命，是一種基於常識、共同經驗、科學、建立在共同人性和相互依存基礎的「普世倫理」，適用不同國家、文化、宗教和不同教育環境…。<br>
+                <br>
+                慈悲運動包含兩種打造心理健康和幸福感的工具：慈悲訓練實務先驅「認知為本的慈悲訓練」 (Cognitively Based Compassion Training, CBCT )和社會情緒倫理教育SEE Learning，CBCT針對大學生和成人，SEE Learning則適用於幼稚園到高中的學生。CBCT最初開發的目標是幫助減緩大學生的情緒壓力，研究發現能增加人際連結和希望感、改善憂鬱情緒。CBCT在降低壓力生化指數和發炎反應方面也頗具成效，已運用在長期處於高壓和高密度人際互動的工作者，例如第一線的醫護人員、學校教師和照顧特殊兒童的父母等。
+                2002年，聯合國教科文組織（UNESCO）向140個國家的教育部發布了實施「社會與情緒學習」（Social and Emotional Learning, SEL）的十大基本原則，是聯合國兒童基金會（UNICEF）、教育研究與創新中心（CERI）等多個機構推薦的教育方案之一，並在世界各地推展多年。SEE Learning的理論架構包含覺知、慈悲和參與三個向度，以及認識自己、理解他人、關懷世界三個維度，幫助學習者在盤根錯節的複雜世界中，打造翻轉幸福的24種優勢能力。<br>
+                <br>
+                <b style="font-size: 20px;font-weight: 800;">工作坊目的</b><br>
+                
+                <ol style="list-style:;;text-align: justify;letter-spacing: 2px;line-height: 32px;">
+                    <li>透過國際論壇，讓國內學術界、科學領域、教育領域和社會大眾與推動全球心智教育團隊(CCSCBE, Emory University)交流對談；讓慈悲運動的主題倡議更為各界熟知和重視。 </li>
+                    <li>透過論壇與工作坊，讓關心幸福感的科學家、AI專家和政策訂定者、教師、研究者、學生和社會大眾等，更關注幸福科學、幸福科技、幸福教育的發展，一起打造幸福健康的城市。</li>
+                    <li>透過帶動慈悲科學發展的Dr. Negi 和推動國際SEE Learning 的Mr. Tsondue經驗分享，促進師生、家長、第一線教師和社會大眾對小中高大的社會、情緒健康和普世倫理的重視；促進專注學習、復原力、人際合作和系統思考等幸福優勢能力的培育、促進心理健康和幸福感。</li>
+                    <li>透過社區和跨界的合作模式，共同促進幸福科學、幸福教育和幸福城市，領航新世紀。</li>
+                </ol>                     
+                </p>
+            </div>
+
+            <div class="content content2">
+            <p style="text-align: justify;letter-spacing: 2px;line-height: 32px;">
+            <b style="font-size: 20px;font-weight: 800;">基本資訊</b><br/>
+            <br/>
+            主題：國立成功大學幸福教育國際論壇與工作坊——以慈悲關懷打造幸福<br/>
+            時間：2024年3月12日(二)～13日(三)<br/>
+            地點：國立成功大學光復校區國際會議廳第一演講室<br/>
+            主辦單位：國立成功大學，台南市政府教育局，財團法人雲林縣利仁教育基金會<br/>
+            協辦單位：國立成功大學人文社會中心、理學院、學務處，臺灣綜合大學系統，國立高雄師範大學教育學系綜合活動領域教學研究中心(中學組) 、竹橋國小、進學國小<br/>
+            承辦單位：社團法人中華民國南部科學園區產學協會<br/>
+            3/12報名連結：<a href="https://activity.ncku.edu.tw/index.php?c=apply&no=14300" style="color: brown;">前往報名</a><br/>
+            3/13報名連結：<a href="https://activity.ncku.edu.tw/index.php?c=apply&no=14301" style="color: brown;">前往報名</a><br/>
+            *本次工作坊有同步口譯<br/>
+                </p>
+
+            </div>
+
+            <div class="content content3">
+
+            <table border="1" class="table0312">
+                <tbody>
+                <tr >
+                    <td colspan=3 style="background-color: #ea673c;font-weight: bold;color: white;">幸福科學與慈悲運動國際論壇<br>
+                        2024.03.12（二）19:00-21:00<br>
+                        國立成功大學光復校區國際會議廳第一演講室</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">時間</td>
+                    <td colspan=2 style="background-color: #f8f0e1;">活動內容</td>
+                    
+                </tr>
+                <tr>
+                    <td >18：30-19：00</td>
+                    <td colspan=2 style="width: 100%">報到</td>
+                    
+                </tr>
+
+                <tr>
+                    <td rowspan=2>19：00-19：15 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        開幕致詞
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan=2 style="width: 100px;"> <b style="font-size: 18px;">陳玉女</b><br/>
+                        （國立成功大學副校長）<br/>
+                        <b style="font-size: 18px;">甘銘源</b><br/>
+                        （利仁教育基金會董事長）
+                    </td>
+                    
+                </tr>   
+
+
+
+
+                <tr>
+                    <td>19：15-19：20</td>
+                    <td colspan=2>合影</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan=3>19：20-20：10 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        慈悲運動下的幸福科學
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan= style="width: 100px;"> <b style="font-size: 18px;">陳玉女</b><br/>
+                        （ 國立成功大學副校長）
+
+                        </td>
+                    <td ><b style="font-size: 18px;">Dr. Lobsang Tenzin Negi</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心主任）
+                </tr>
+                <tr>
+                    <td rowspan=3 >20：15-20：55 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        圓桌論壇
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan= style="width: 100px;"><b style="font-size: 18px;">張書銓</b><br/>
+                        （國立成功大物理系教授）</td>
+                    <td ><b style="font-size: 18px;">Dr. Lobsang Tenzin Negi</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心主任）<br/>
+                        <b style="font-size: 18px;">Mr. Tsondue Samphel</b><<br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心高級專員）<br/>
+                        <b style="font-size: 18px;">王駿發</b><br/>
+                        （國立成功大學電機系名譽講座教授）<br/>
+                        <b style="font-size: 18px;">陳岳男</b><br/>
+                        （ 國立成功大學物理系特聘教授）<br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan=3>20：55-21：00 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        閉幕
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan=2 style="width: 100px;"><b style="font-size: 18px;">蔡錦俊</b><br/>
+                        （國立成功大理學院院長）</td>
+                    
+                </tr>  
+            </tbody>  
+            </table>
+
+            <table border="1" class="table0312">
+                <tr>
+                    <td colspan=3 style="background-color: #f8f0e1;font-weight: bold;">幸福教育國際論壇<br>
+                        2024.03.13（三）9:00-12:00<br>
+                        國立成功大學光復校區國際會議廳第一演講室</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">時間</td>
+                    <td colspan=2 style="background-color: #f8f0e1;">活動內容</td>
+                    
+                </tr>
+                <tr>
+                    <td style="width: 150px;">08：30-09：00</td>
+                    <td colspan=2 style="width: 100%">報到</td>
+                    
+                </tr>
+
+                <tr>
+                    <td rowspan=2>09：00-09：15 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        開幕致詞
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan=2 style="width: 100px;">  <b style="font-size: 18px;">沈孟儒</b><br/>
+                        （國立成功大學校長）<br/>
+                        <b style="font-size: 18px;">葉澤山</b><br/>
+                        （台南市副市長）<br/>
+                        <b style="font-size: 18px;">甘銘源</b><br/>
+                        （利仁教育基金會董事長）
+                    </td>
+                    
+                </tr>   
+
+
+                <tr>
+                    <td>09：15-09：20</td>
+                    <td colspan=2>合影</td>
+                    
+                </tr>
+                <tr>
+                    <td>09：20-09：25</td>
+                    <td colspan=2>慈悲運動影片</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan=3>19：25-10：10 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        慈悲運動下的SEE Learning
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan= style="width: 100px;"> <b style="font-size: 18px;">蔡群立</b><br/>
+                        （ 國立成功大學人文社會科學中心主任）
+
+                        </td>
+                    <td ><b style="font-size: 18px;">Dr. Lobsang Tenzin Negi</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心主任）
+                </tr>
+                <tr>
+                    <td rowspan=3>10：10-10：55 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        SEE Learning 的國際發展與影響
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td style="width: 100px;"> <b style="font-size: 18px;">蔡群立</b><br/>
+                        （ 國立成功大學人文社會科學中心主任）
+
+                        </td>
+                    <td ><b style="font-size: 18px;">Mr. Tsondue Samphel</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心高級專員）
+                </tr>
+                <tr>
+                    <td >10：55-11：15 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        休息（茶敘）
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan=3>11：15-11：55 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        圓桌論壇
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan= style="width: 100px;"><b style="font-size: 18px;">林君昱</b><br/>
+                        （國立成功大學心理系副教授）</td>
+                    <td ><b style="font-size: 18px;">Dr. Lobsang Tenzin Negi</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心主任）<br/>
+                        <b style="font-size: 18px;">Mr. Tsondue Samphel</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心高級專員）<br/>
+                        <b style="font-size: 18px;"> 陳宗暘</b><br/>
+                        （台南市教育局學輔校安科科長）<br/>
+                        <b style="font-size: 18px;">劉宗幸</b><br/>
+                        （高師大教育系副教授）<br/>
+                        <b style="font-size: 18px;">黃絢質</b><br/>
+                        （高師大師資培育與就業輔導處副教授）
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan=3>11：55-12：00 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        閉幕
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan=2 style="width: 100px;"><b style="font-size: 18px;">蔡錦俊</b><br/>
+                        （國立成功大理學院院長）</td>
+                    
+                </tr>   
+                    
+            </table>
+            <table border="1" class="table0312">
+                <tr>
+                    <td colspan=3 style="background-color: #f8f0e1;font-weight: bold;">SEE Learning工作坊<br>
+                        2024.03.13（三）13:30-16:00<br>
+                        國立成功大學光復校區國際會議廳第一演講室</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">時間</td>
+                    <td colspan=2 style="background-color: #f8f0e1;">活動內容</td>
+                    
+                </tr>
+                <tr>
+                    <td style="width:150px">13：00-13：30</td>
+                    <td colspan=2 style="width: 100%">報到</td>
+                    
+                </tr>
+
+                <tr>
+                    <td rowspan=2>13：30-13：40  </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        開幕致詞
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan=2 style="width: 100px;">  <b style="font-size: 18px;">鄭新輝</b><br/>
+                        （台南市教育局局長）<br/>
+                        <b style="font-size: 18px;">李綠枝</b><br/>
+                        （利仁教育基金會執行長）<br/>
+                    </td>
+                    
+                </tr>   
+
+                
+                
+                <tr>
+                    <td>13：40-13：45</td>
+                    <td colspan=2>合影</td>
+                    
+                </tr>
+                
+                <tr>
+                    <td rowspan=3>13：45-14：15 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        SEE Learning的來源與目的
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan= style="width: 100px;"> <b style="font-size: 18px;">方德隆</b><br/>
+                        （高師大教育學院院長）
+
+                        </td>
+                    <td ><b style="font-size: 18px;">Dr. Lobsang Tenzin Negi</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心主任）
+                </tr>
+                <tr>
+                    <td rowspan=3>14：15-14：45 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        SEE Learning 的架構與成效
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan= style="width: 100px;"> <b style="font-size: 18px;">方德隆</b><br/>
+                        （高師大教育學院院長）
+
+                            </td>
+                    <td ><b style="font-size: 18px;">Mr. Tsondue Samphel</b><br/>
+                        （美國埃默里大學冥想科學和慈悲倫理中心高級專員）
+                </tr>
+                <tr>
+                    <td >14：45-15：00 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        休息
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td rowspan=3>15：00-15：50 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        SEE Learning實作
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主持人</td>
+                    <td style="background-color: #f8f0e1;font-weight: bold;">主講人</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan= style="width: 100px;"><b style="font-size: 18px;">丘愛鈴</b><br/>
+                        （高師大教育系主任）</td>
+                    <td ><b style="font-size: 18px;">關婉玲</b><br/>
+                        （雲科大通識中心兼任助理教授）<br/>
+                        <b style="font-size: 18px;">林家薇</b><br/>
+                        （國立臺北科技大學兼任講師）<br/>
+                        
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan=3>15：50-16：00 </td>
+                    <td colspan=2 style="background-color: #f8f0e1;">
+                        閉幕
+                        </td>
+                    
+                </tr>
+                <tr>
+                    <td colspan=2 style="width: 100px;"><b style="font-size: 18px;">鄭新輝</b><br/>
+                        （台南市教育局局長）<br/>
+                        <b style="font-size: 18px;">陳思瑀</b><br/>
+                        （台南市教育局督學）
+                    </td>
+                    
+                </tr>   
+                    
+            </table> 
+
+            </div>
+
+            <div class="content content4">
+
+            <p style="text-align: justify;letter-spacing: 2px;line-height: 32px;">
+            <b style="font-size: 20px;">Dr. Lobsang Tenzin Negi (涅吉教授)</b><br>
+            職稱：主任<br>
+            服務單位：美國埃默里大學(Emory University)「冥想科學和慈悲倫理中心」<br>
+            演講者學經歷：<br>
+            涅吉教授是少數同時擁有藏傳佛教最高學位和西方博士雙學位的學者，是當代慈悲冥想科學、慈悲訓練和慈悲教育的主要推手，2004涅吉博士為了協助憂鬱和情緒困擾的大學生，發展出CBCT認知為本的慈悲訓練，至今CBCT成為當代慈悲訓練的先驅，發展成能因應情緒困擾和慢性壓力的心理健康工具。<br>
+            <br>
+            <b style="font-size: 20px;">Mr. Tsondue Samphel (桑弗先生)</b><br>
+            職稱：高級計畫專員<br>
+            服務單位：美國埃默里大學(Emory University)「冥想科學和慈悲倫理中心」<br>
+            演講者學經歷：<br>
+            桑弗先生是負責台灣慈悲教育計畫SEE Learning的資深執行，隨著全球化和AI發展而改變的教育趨勢，SEE Learning從個人出發、強調人際相互依存和系統思考，彌補了傳統教育的不足，更是一股溫柔的力量和連結。<br>
+
+
+            </p>
+            </div>
+              
+         </div>   
+              
+             
+        </div>
+          
+</body>
+</html>
