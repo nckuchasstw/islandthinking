@@ -69,7 +69,7 @@ const app = Vue.createApp({
       // {title:'「新冷戰時期的華語語系研究與關係比較學」大師講座',url:'activity06.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
       // {title:'「Master：關係比較方法論的探討」大師講座',url:'activity07.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
       {title:'「由下而上的思想史」大師講座',url:'activity08.html',author:'王汎森',img:'00223.jpg',data:"2024.2.23",register:'活動已結束'},
-      {title:'「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峯',img:'00308.jpg',data:"2024.3.8",register:'開放報名中'},
+      {title:'「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峯',img:'00308.jpg',data:"2024.3.8",register:'活動已結束'},
       {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'00322.jpg',data:"2024.3.22",register:'開放報名中'},
       ],
 
