@@ -66,11 +66,12 @@ const app = Vue.createApp({
       {title:'文學主題讀書會',url:'activity03.html',author:'陳文松、莫加南',img:'bookclub-008.jpg',data:"2023.10.11",register:'活動已結束'},
       {title:'生態主題讀書會',url:'activity04.html',author:'王毓正',img:'bookclub-009.jpg',data:"2023.10.13",register:'活動已結束'},
       {title:'歷史主題讀書會',url:'activity05.html',author:'沈玉慧',img:'01104.jpg',data:"2023.11.4",register:'活動已結束'},
-      // {title:'「新冷戰時期的華語語系研究與關係比較學」大師講座',url:'activity06.html',author:'史書美',img:'lecture-03.jpg',data:"2023.12.5",register:'尚未開放報名'},
-      // {title:'「Master：關係比較方法論的探討」大師講座',url:'activity07.html',author:'史書美',img:'lecture-04.jpg',data:"2023.12.6",register:'尚未開放報名'},
+     
       {title:'「由下而上的思想史」大師講座',url:'activity08.html',author:'王汎森',img:'00223.jpg',data:"2024.2.23",register:'活動已結束'},
       {title:'「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峯',img:'00308.jpg',data:"2024.3.8",register:'活動已結束'},
       {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'00322.jpg',data:"2024.3.22",register:'開放報名中'},
+       {title:'「摇不起來的台語「阿哥哥」（1960年代）―搖滾樂、電子琴、族群階級」大師講座',url:'activity06.html',author:'陳培豐',img:'0514.jpg',data:"2024.05.14",register:'尚未開放報名'},
+      {title:'「台語歌曲的去日本化、再本土化―反芻傳統走向民俗(1970年代）」大師講座',url:'activity07.html',author:'陳培豐',img:'0515.jpg',data:"2024.05.15",register:'尚未開放報名'},
       ],
 
       urlList:[
