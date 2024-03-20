@@ -56,7 +56,7 @@ const app = Vue.createApp({
 
       {role:'博士後研究員',title:'林明發',url:'https://www.econ.ncku.edu.tw/Upload/NewsFiles/NewsPlusFiles/9/202301161525_52773.pnghttps://earth.ncku.edu.tw/p/412-1134-25846.php?Lang=zh-tw',tel:"TEL：06-2757575#56071",email:'11010076@gs.ncku.edu.tw'},
 
-      {role:'兼任助理',title:'楊雅鈞',url:'https://chass.ncku.edu.tw/p/412-1011-4248.php?Lang=zh-tw',tel:"TEL：06-2757575#56071",email:'--'},
+  
       ],
       
       activityList: [
