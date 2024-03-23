@@ -69,7 +69,7 @@ const app = Vue.createApp({
      
       {title:'「由下而上的思想史」大師講座',url:'activity08.html',author:'王汎森',img:'00223.jpg',data:"2024.2.23",register:'活動已結束'},
       {title:'「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」大師講座',url:'activity09.html',author:'陳玉峯',img:'00308.jpg',data:"2024.3.8",register:'活動已結束'},
-      {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'00322.jpg',data:"2024.3.22",register:'開放報名中'},
+      {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'00322.jpg',data:"2024.3.22",register:'活動已結束'},
        {title:'「摇不起來的台語「阿哥哥」（1960年代）―搖滾樂、電子琴、族群階級」大師講座',url:'activity06.html',author:'陳培豐',img:'0514.jpg',data:"2024.05.14",register:'尚未開放報名'},
       {title:'「台語歌曲的去日本化、再本土化―反芻傳統走向民俗(1970年代）」大師講座',url:'activity07.html',author:'陳培豐',img:'0515.jpg',data:"2024.05.15",register:'尚未開放報名'},
       ],
