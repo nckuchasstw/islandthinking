@@ -78,9 +78,9 @@ const app = Vue.createApp({
       {url:"https://chass.ncku.edu.tw/index.php",img:"url-01.png"},
       {url:"https://tsncku.com.tw/",img:"url-02.png"},
       {url:"https://www.ncku.edu.tw/",img:"url-03.png"},
-      {url:"https://www.tnam.museum/",img:"url-04.png"},
-      {url:"https://culture.tainan.gov.tw/form/index?Parser=28,6,277,276",img:"url-05.png"},
-      {url:"https://creativetainan.culture.tainan.gov.tw/",img:"url-06.png"},
+      {url:"https://archs.nchu.edu.tw/",img:"url-04.png"},
+      {url:"https://syscfh-la.nsysu.edu.tw/",img:"url-05.png"},
+      {url:"https://tih.ccu.edu.tw/",img:"url-06.png"},
       
       ]
       }
