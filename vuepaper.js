@@ -26,6 +26,8 @@ const app = Vue.createApp({
         ],
       postList: [
 
+      {title:'5/24-25島鏈人文密集課程開放報名中',url:'activity11.html',img:'bg.jpg',data:"2024.05.05"},
+
       {title:'2/23「由下而上的思想史」、3/8「台灣自然史的通俗演義——依整體論(Holism)談台灣生界的天演」、3/22「台灣宗教哲學奧義——隱性禪的無門關」，大師系列講座開放報名中',url:'activity.html',img:'bg.jpg',data:"2024.02.06"},
 
       {title:'原訂12/5「新冷戰時期的華語語系研究與關係比較學」大師講座、12/6「Master：關係比較方法論的探討」大師講座，因臨時狀況之變動，活動暫時取消，若有進一步的講座消息，將另行公佈。',img:'bg.jpg',data:"2023.11.23"},
@@ -72,6 +74,7 @@ const app = Vue.createApp({
       {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'00322.jpg',data:"2024.3.22",register:'活動已結束'},
        {title:'「摇不起來的台語「阿哥哥」（1960年代）―搖滾樂、電子琴、族群階級」大師講座',url:'activity06.html',author:'陳培豐',img:'0514.jpg',data:"2024.05.14",register:'開放報名中'},
       {title:'「台語歌曲的去日本化、再本土化―反芻傳統走向民俗(1970年代）」大師講座',url:'activity07.html',author:'陳培豐',img:'0515.jpg',data:"2024.05.15",register:'開放報名中'},
+      {title:'島鏈人文密集課程',url:'activity11.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/223920142.jpg',data:"2024.05.24-25",register:'開放報名中'},
       ],
 
       urlList:[
