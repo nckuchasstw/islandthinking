@@ -74,7 +74,7 @@ const app = Vue.createApp({
       {title:'「台灣宗教哲學奧義——隱性禪的無門關」大師講座',url:'activity10.html',author:'陳玉峯',img:'00322.jpg',data:"2024.3.22",register:'活動已結束'},
        {title:'「摇不起來的台語「阿哥哥」（1960年代）―搖滾樂、電子琴、族群階級」大師講座',url:'activity06.html',author:'陳培豐',img:'0514.jpg',data:"2024.05.14",register:'活動已結束'},
       {title:'「台語歌曲的去日本化、再本土化―反芻傳統走向民俗(1970年代）」大師講座',url:'activity07.html',author:'陳培豐',img:'0515.jpg',data:"2024.05.15",register:'活動已結束'},
-      {title:'島鏈人文密集課程',url:'activity11.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/223920142.jpg',data:"2024.05.24-25",register:'開放報名中'},
+      {title:'島鏈人文密集課程',url:'activity11.html',author:'--',img:'https://chass.ncku.edu.tw/var/file/11/1011/img/223920142.jpg',data:"2024.05.24-25",register:'活動已結束'},
       ],
 
       urlList:[
