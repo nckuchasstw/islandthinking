@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電子書應用程式</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+        }
+        .books-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            overflow-y: auto;
+            padding: 20px;
+            max-width: 1200px;
+            width: 100%;
+        }
+        .book {
+            cursor: pointer;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            width: 200px;
+            height: 350px;
+            box-sizing: border-box;
+        }
+        .cover {
+            width: 100px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        .book-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            flex-grow: 1;
+        }
+        .view-count {
+            margin-top: auto;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="books-container">
+            <div v-for="book in books" :key="book.isbn" class="book">
+                <a :href="book.link" target="_blank" @click="incrementView(book.isbn)">
+                    <img :src="book.cover" class="cover" :alt="`${book.name} Cover`">
+                </a>
+                <div class="book-details">
+                    <div>{{ book.name }}</div>
+                    <div>作者: {{ book.author }}</div>
+                    <div>ISBN: {{ book.isbn }}</div>
+                </div>
+                <div class="view-count">Views: {{ book.views }}</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+        new Vue({
+            el: '#app',
+            data: {
+                books: [
+                    { name: 'Book1', author: 'Author1', isbn: '1111', cover: 'cover1.jpg', link: 'book1.html', views: 0 },
+                    { name: 'Book2', author: 'Author2', isbn: '2222', cover: 'cover2.jpg', link: 'book2.html', views: 0 },
+                    { name: 'Book3', author: 'Author3', isbn: '3333', cover: 'cover3.jpg', link: 'book3.html', views: 0 },
+                    { name: 'Book4', author: 'Author4', isbn: '4444', cover: 'cover4.jpg', link: 'book4.html', views: 0 },
+                    { name: 'Book5', author: 'Author5', isbn: '5555', cover: 'cover5.jpg', link: 'book5.html', views: 0 }
+                ]
+            },
+            created() {
+                this.loadViews();
+            },
+            methods: {
+                loadViews() {
+                    this.books.forEach(book => {
+                        fetch(`http://localhost:3000/books/${book.isbn}`)
+                            .then(response => response.json())
+                            .then(data => {
+                                if (data.views !== undefined) {
+                                    book.views = data.views;
+                                }
+                            });
+                    });
+                },
+                incrementView(isbn) {
+                    fetch(`http://localhost:3000/books/${isbn}/increment`, { method: 'POST' })
+                        .then(response => response.json())
+                        .then(data => {
+                            const book = this.books.find(b => b.isbn === isbn);
+                            if (book && data.views !== undefined) {
+                                book.views = data.views;
+                            }
+                        });
+                }
+            }
+        });
+    </script>
+    <script>
+        const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+
+const app = express();  // 初始化 app 变量
+const port = 3000;
+
+// 允许所有来源的 CORS 请求
+app.use(cors());
+
+app.use(bodyParser.json());
+
+let books = {
+    '1111': { views: 0 },
+    '2222': { views: 0 },
+    '3333': { views: 0 },
+    '4444': { views: 0 },
+    '5555': { views: 0 }
+};
+
+// 获取特定书籍的浏览次数
+app.get('/books/:isbn', (req, res) => {
+    const isbn = req.params.isbn;
+    if (books[isbn]) {
+        res.json({ views: books[isbn].views });
+    } else {
+        res.status(404).json({ error: 'Book not found' });
+    }
+});
+
+// 增加特定书籍的浏览次数
+app.post('/books/:isbn/increment', (req, res) => {
+    const isbn = req.params.isbn;
+    if (books[isbn]) {
+        books[isbn].views++;
+        res.json({ views: books[isbn].views });
+    } else {
+        res.status(404).json({ error: 'Book not found' });
+    }
+});
+
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
+
+    </script>
+</body>
+</html>
